@@ -9,9 +9,19 @@
 import Foundation
 
 struct allPhotos: Codable {
+
     let totalHits: Int
     let hits:HitWrapper
     let total: Int
+    
+//
+//    static func getFilteredPhotosByName(arr: [allPhotos], searchString: String ) -> [allPhotos]{
+//        return arr.filter{$0.totalHits.contains(searchString.lowercased())}
+//
+//
+//    }
+
+    
 }
 
 struct HitWrapper: Codable {

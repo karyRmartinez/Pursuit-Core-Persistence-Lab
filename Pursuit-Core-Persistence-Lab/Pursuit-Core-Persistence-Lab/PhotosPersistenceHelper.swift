@@ -15,7 +15,7 @@ struct allPhotosPersistenceHelper {
         try persistenceHelper.save(newElement: newallPhotos)
     }
     
-    func getSloths() throws -> [allPhotos] {
+    func getPhotos() throws -> [allPhotos] {
         return try persistenceHelper.getObjects()
     }
     

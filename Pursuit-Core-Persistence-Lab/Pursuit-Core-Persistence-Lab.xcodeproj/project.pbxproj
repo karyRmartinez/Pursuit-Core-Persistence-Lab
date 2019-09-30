@@ -16,6 +16,10 @@
 		6BDAA1A8234295B2000DCEE6 /* persistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAA1A7234295B2000DCEE6 /* persistenceHelper.swift */; };
 		6BDAA1AA234295EC000DCEE6 /* PhotosPersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAA1A9234295EC000DCEE6 /* PhotosPersistenceHelper.swift */; };
 		6BDAA1AC2342962F000DCEE6 /* photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAA1AB2342962F000DCEE6 /* photos.swift */; };
+		6BDAA1AE2342AFC9000DCEE6 /* photosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAA1AD2342AFC9000DCEE6 /* photosTableViewCell.swift */; };
+		6BDAA1B02342B089000DCEE6 /* imageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAA1AF2342B089000DCEE6 /* imageHelper.swift */; };
+		6BDAA1B22342B36B000DCEE6 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAA1B12342B36B000DCEE6 /* AppErrors.swift */; };
+		6BDAA1B42342B726000DCEE6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAA1B32342B726000DCEE6 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		6BDAA1A7234295B2000DCEE6 /* persistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persistenceHelper.swift; sourceTree = "<group>"; };
 		6BDAA1A9234295EC000DCEE6 /* PhotosPersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPersistenceHelper.swift; sourceTree = "<group>"; };
 		6BDAA1AB2342962F000DCEE6 /* photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photos.swift; sourceTree = "<group>"; };
+		6BDAA1AD2342AFC9000DCEE6 /* photosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photosTableViewCell.swift; sourceTree = "<group>"; };
+		6BDAA1AF2342B089000DCEE6 /* imageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageHelper.swift; sourceTree = "<group>"; };
+		6BDAA1B12342B36B000DCEE6 /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
+		6BDAA1B32342B726000DCEE6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +93,14 @@
 			children = (
 				6BDAA187234293F7000DCEE6 /* AppDelegate.swift */,
 				6BDAA189234293F7000DCEE6 /* ViewController.swift */,
+				6BDAA1AF2342B089000DCEE6 /* imageHelper.swift */,
+				6BDAA1B12342B36B000DCEE6 /* AppErrors.swift */,
 				6BDAA1A7234295B2000DCEE6 /* persistenceHelper.swift */,
 				6BDAA1A9234295EC000DCEE6 /* PhotosPersistenceHelper.swift */,
+				6BDAA1B32342B726000DCEE6 /* APIClient.swift */,
 				6BDAA1AB2342962F000DCEE6 /* photos.swift */,
 				6BDAA18B234293F7000DCEE6 /* Main.storyboard */,
+				6BDAA1AD2342AFC9000DCEE6 /* photosTableViewCell.swift */,
 				6BDAA18E234293F8000DCEE6 /* Assets.xcassets */,
 				6BDAA190234293F8000DCEE6 /* LaunchScreen.storyboard */,
 				6BDAA193234293F8000DCEE6 /* Info.plist */,
@@ -206,11 +218,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDAA1B22342B36B000DCEE6 /* AppErrors.swift in Sources */,
 				6BDAA18A234293F7000DCEE6 /* ViewController.swift in Sources */,
+				6BDAA1B02342B089000DCEE6 /* imageHelper.swift in Sources */,
 				6BDAA188234293F7000DCEE6 /* AppDelegate.swift in Sources */,
+				6BDAA1AE2342AFC9000DCEE6 /* photosTableViewCell.swift in Sources */,
 				6BDAA1AA234295EC000DCEE6 /* PhotosPersistenceHelper.swift in Sources */,
 				6BDAA1A8234295B2000DCEE6 /* persistenceHelper.swift in Sources */,
 				6BDAA1AC2342962F000DCEE6 /* photos.swift in Sources */,
+				6BDAA1B42342B726000DCEE6 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
